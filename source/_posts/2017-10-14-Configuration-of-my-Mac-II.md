@@ -86,3 +86,13 @@ npm install hexo-deployer-git --save
 ```
 
 That's all, your blog is ready now.
+
+# Others
+
+差点忘了，我习惯隐藏dock与menubar。它们的弹出有一定的延迟，习惯无延迟后再突然加上延迟可是相当令人恼火的。
+
+```
+defaults write com.apple.Dock autohide-delay -int 0 && killall Dock 
+```
+
+在终端输入以上代码后即可零延迟弹出Dock
